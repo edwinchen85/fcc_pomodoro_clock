@@ -1,0 +1,90 @@
+* { box-sizing: border-box; }
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background: radial-gradient(ellipse at center, rgb(61, 180, 141) 0%, #008080 80%);
+  font-family: 'Love Ya Like A Sister', cursive;
+}
+
+.block {
+  background: rgba(255,255,255,.3);
+  color: white;
+  padding: 20px;
+  width: 40%;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 1rem;
+}
+
+.spacer {
+  margin: 5% auto 0;
+}
+
+.wrapper {
+  display: flex;
+  width: 80%;
+  margin: 0 auto 50px;
+  justify-content: space-around;
+}
+
+.session, .break {
+  display: inline-block;
+}
+
+.title {
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 2.2rem;
+  display: inline-block;
+  margin: 0 10px;
+  vertical-align: middle;
+}
+
+#mTime, #aTime, #mBreak, #aBreak {
+  vertical-align: middle;
+  width: 40px;
+  height: 40px;
+  font-size: 2rem;
+}
+
+#start, #reset {
+  font-size: 1.5rem;
+  padding: 1.5rem 3rem;
+  margin: 3rem;
+}
+
+.btn {
+  color: #555;
+  background-color: white;
+  border: 1px solid white;
+  transition: all .1s ease-out;
+}
+
+.btn:hover {
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+}
+
+.inactiveLink {
+  pointer-events: none;
+}
+
+#session {
+  font-size: 1.8rem;
+}
+
+.f-xl {
+  font-size: 50px;
+}
+
+.f-mega {
+  font-size: 120px;
+}
