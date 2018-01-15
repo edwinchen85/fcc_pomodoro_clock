@@ -9,3 +9,5 @@ When you click start button to trigger pomodoro clock, it will elapse until fini
 A reset button is there for restart pomodoro clock. It can also be used when the pomodoro clock is running to restart to its initial state.
 
 [View demo site here to give a try.](http://edwinchen.co/fcc_pomodoro_clock/)
+
+![Preview](screenshot.png)
