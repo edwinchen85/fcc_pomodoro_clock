@@ -1,0 +1,21 @@
+{
+  "name": "fcc_pomodoro_clock",
+  "description": "FreeCodeCamp pomodoro clock project",
+  "main": "index.js",
+  "authors": [
+    "Edwin Chen"
+  ],
+  "license": "ISC",
+  "homepage": "http://edwinchen.co/fcc_pomodoro_clock",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1"
+  }
+}
