@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Pomodoro Clock</title>
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister" rel="stylesheet">
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+  <div class="container-fluid text-center block spacer">
+    <h1 class="f-xl">Pomodoro Clock</h1>
+    <div class="wrapper">
+      <div class="session">
+        <h3 class="title">Session Length</h3>
+        <a href="#" class="btn" id="mTime">-</a>
+        <h2 id="sessionNum">25</h2>
+        <a href="#" class="btn" id="aTime">+</a><br>
+
+      </div>
+      <div class="break">
+        <h3 class="title">Break Length</h3>
+        <a href="#" class="btn" id="mBreak">-</a>
+        <h2 id="breakNum">5</h2>
+        <a href="#" class="btn" id="aBreak">+</a><br>
+      </div>
+    </div>
+    <h2 id="session">Press start when ready!</h2>
+    <h1 class="f-mega" id="countdown">0:00</h1>
+    <div>
+      <a href="#" class="btn" id="reset">Reset</a>
+      <a href="#" class="btn" id="start">Start</a><br>
+    </div>
+  </div>
+
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <audio id="buzzer" src="https://notificationsounds.com/soundfiles/5878a7ab84fb43402106c575658472fa/file-sounds-723-rising-up.mp3"></audio>
+  <script src="js/index.js"></script>
+</body>
+</html>
